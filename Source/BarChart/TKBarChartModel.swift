@@ -12,7 +12,7 @@ public struct TKBarChartModel {
     let topText: String
 
     let bottomText: String
-
+    /// 0.0 ~ 1.0
     let heightRadio: Double
     public init(topText:String,bottomText:String,heightRadio:Double) {
         self.topText = topText
