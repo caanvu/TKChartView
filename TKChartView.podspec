@@ -20,9 +20,9 @@ Pod::Spec.new do |spec|
   
   spec.ios.deployment_target = "10.0"
 
-  spec.source       = { :git => "https://github.com/caanvu/TKChartView.git", :tag => s.version }
+  spec.source       = { :git => "https://github.com/caanvu/TKChartView.git", :tag => spec.version }
 
-  spec.source_files  = "Source/*.swift"
+  spec.source_files  = "Source/**/*.swift"
   spec.framework  = "UIKit"
   spec.requires_arc = true
 
